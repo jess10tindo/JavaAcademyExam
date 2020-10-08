@@ -1,4 +1,4 @@
-# Assessment
+# JavaAcademyExam
 
 ## Frequently Asked Questions
 
@@ -21,4 +21,4 @@ Get the most tests to pass as you can.
 * Ensure that the tests run upon opening the project.
 	* You should see, `Tests Failed: 169 of 169 tests`
 
-# JavaAcademyExam
+
