@@ -12,7 +12,7 @@ public class Animal {
     private Person owner;
 
     public Animal() {
-        this.id = id;
+        this.id = null;
         this.owner = owner;
     }
 

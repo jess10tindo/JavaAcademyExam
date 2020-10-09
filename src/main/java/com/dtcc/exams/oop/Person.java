@@ -52,7 +52,13 @@ public class Person {
 
     @Override
     public boolean equals(Object o) {
-
-        return (Boolean)null;
+        Person person2 = (Person)o;
+        boolean flag = false;
+        if(this.id == (person2.getId()) &&
+                this.name.equals(person2.getName()) &&
+                this.address.equals(person2.getAddress())){
+            flag = true;
+        }
+        return flag;
     }
 }

@@ -72,16 +72,22 @@ public class Address {
     }
 
     @Override
+    public String toString() {
+        String addressString = "Address{addressLine1='" + this.addressLine1 + "', addressLine2='" + this.addressLine2 + "', city='" + this.city + "', state='" + this.state + "', zipcode='" + this.zipcode + "'}";
+        return addressString;
+    }
+
+    @Override
     public boolean equals(Object o) {
-        //Address address = Address.class.cast(o);
+        Address address2 = (Address)o;
         boolean flag = false;
-//        if(this.state.equals(o.getState()) &&
-//                this.city.equals(o.getCity()) &&
-//                this.addressLine2.equals(o.getAddressLine2()) &&
-//                this.addressLine1.equals(o.getAddressLine1()) &&
-//                this.zipcode.equals(o.getZipcode())){
-//            flag = true;
-//        }
+        if(this.state.equals(address2.getState()) &&
+                this.city.equals(address2.getCity()) &&
+                this.addressLine2.equals(address2.getAddressLine2()) &&
+                this.addressLine1.equals(address2.getAddressLine1()) &&
+                this.zipcode.equals(address2.getZipcode())){
+            flag = true;
+        }
 
         return flag;
     }
