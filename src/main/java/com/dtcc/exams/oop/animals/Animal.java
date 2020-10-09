@@ -2,7 +2,6 @@ package com.dtcc.exams.oop.animals;
 
 import com.dtcc.exams.oop.Address;
 import com.dtcc.exams.oop.Person;
-
 /**
  * @ATTENTION_TO_STUDENTS - Ensure that you have completed the `Person` class before attempting this class.
  */
